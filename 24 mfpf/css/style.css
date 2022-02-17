@@ -1,0 +1,897 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Open+Sans:wght@300&family=Raleway:wght@100;300&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap");
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*Імпорт файла до scss*/
+body {
+  width: 100%;
+  background: white;
+  -webkit-font-smoothing: antialiased;
+}
+
+header {
+  width: 100%;
+  height: 830px;
+  background: url("../img/зображення/banner.jpg");
+  padding: 0px 325px;
+  margin: 0px 0 0 0;
+}
+
+header .con {
+  width: 100%;
+  height: 100px;
+}
+
+header .logo {
+  position: absolute;
+  top: 33px;
+  left: 350px;
+}
+
+header .ed {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  display: inline-block;
+  width: 950px;
+  height: 100px;
+  font-size: 13px;
+  margin: 0px 0px 0 430px;
+  padding: 37px 0 0 150px;
+}
+
+header .ed a {
+  text-transform: uppercase;
+  color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  letter-spacing: 2px;
+  opacity: 70%;
+  margin: 40px 70px 0 0;
+}
+
+header .ed a:hover {
+  color: yellow;
+  opacity: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 65px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: auto;
+  padding: 150px 0 0 0;
+  line-height: 80px;
+  width: 900px;
+}
+
+.menup {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+  text-align: center;
+  margin: auto;
+  margin-top: 40px;
+  width: 900px;
+  line-height: 30px;
+}
+
+.mainbutton {
+  display: block;
+  width: 200px;
+  height: 45px;
+  background: #e84545;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 80px;
+  text-align: center;
+  padding: 15px 0 0 0;
+  font-size: 13px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.mainbutton:hover {
+  background: red;
+  width: 250px;
+}
+
+.mainbutton:active {
+  background: #bb3232;
+}
+
+.content .pen .bp, .content .pc .pec, .content .lamp .m, .content .react .ms, .content .schb .mb, .content .cloud .mc {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 60px 0 0 0;
+  text-align: center;
+}
+
+.content .pc .dich, .content .lamp .pz, .content .react .jsr, .content .schb .sz, .content .cloud .scb {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  margin: 20px 0 0 0;
+  text-align: center;
+  line-height: 24px;
+  padding: 0px 20px 0 20px;
+}
+
+.content {
+  font-family: 'Raleway', sans-serif;
+  font-size: 24px;
+  height: 690px;
+  width: 100%;
+  color: black;
+  padding: 110px 325px;
+}
+
+.content .ubar > div {
+  width: 33%;
+  height: 200px;
+  float: left;
+  padding: 20px;
+}
+
+.content .lbar > div {
+  margin-top: 50px;
+  width: 33%;
+  height: 200px;
+  float: left;
+}
+
+.content .pen {
+  background: url("../img/icons/ActiveBox_03.jpg") center 7px/60px no-repeat;
+}
+
+.content .pen .za {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  margin: 20px 0 0 0;
+  text-align: center;
+}
+
+.content .pc {
+  background: url("../img/icons/ActiveBox_06.jpg") center 10px/80px no-repeat;
+}
+
+.content .lamp {
+  background: url("../img/icons/ActiveBox_08.jpg") center 10px/70px no-repeat;
+}
+
+.content .react {
+  background: url("../img/icons/ActiveBox_13.jpg") center 10px/60px no-repeat;
+}
+
+.content .react .ms {
+  margin-top: 80px;
+}
+
+.content .schb {
+  background: url("../img/icons/ActiveBox_14.jpg") center 10px/70px no-repeat;
+}
+
+.content .schb .mb {
+  margin-top: 80px;
+}
+
+.content .cloud {
+  background: url("../img/icons/ActiveBox_15.jpg") center 10px/60px no-repeat;
+}
+
+.content .cloud .mc {
+  margin-top: 80px;
+}
+
+.content .cloud .scb a {
+  color: black;
+  font-weight: bold;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.content .cloud .scb a:hover {
+  color: red;
+}
+
+.somt .ucase .b1 a, .somt .ucase .b2 a, .somt .ucase .b3 a, .somt .ucase .b4 a, .somt .lcase .b5 a, .somt .lcase .b6 a, .somt .lcase .b7 a, .somt .lcase .b8 a {
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+  color: white;
+  z-index: 5;
+}
+
+.somt .ucase .b1 a p, .somt .ucase .b2 a p, .somt .ucase .b3 a p, .somt .ucase .b4 a p, .somt .lcase .b5 a p, .somt .lcase .b6 a p, .somt .lcase .b7 a p, .somt .lcase .b8 a p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  width: 200px;
+  margin: auto;
+  height: 33px;
+  position: relative;
+  line-height: 30px;
+  top: 120px;
+}
+
+.somt .ucase .b1 a p span, .somt .ucase .b2 a p span, .somt .ucase .b3 a p span, .somt .ucase .b4 a p span, .somt .lcase .b5 a p span, .somt .lcase .b6 a p span, .somt .lcase .b7 a p span, .somt .lcase .b8 a p span {
+  text-transform: capitalize;
+  display: block;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+.somt .ucase .b1 a:hover, .somt .ucase .b2 a:hover, .somt .ucase .b3 a:hover, .somt .ucase .b4 a:hover, .somt .lcase .b5 a:hover, .somt .lcase .b6 a:hover, .somt .lcase .b7 a:hover, .somt .lcase .b8 a:hover {
+  opacity: 100%;
+}
+
+.somt {
+  height: 700px;
+  width: 100%;
+  margin-top: 110px;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+
+.somt .ucase div {
+  width: 461px;
+  height: 350px;
+  float: left;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.somt .ucase .b1 {
+  background: url("../img/work/work-1.jpg") center;
+  -webkit-transition: 1s;
+  transition: 1s;
+  position: relative;
+}
+
+@media (max-width: 500px) {
+  .somt .ucase .b1 {
+    max-width: 200px;
+    max-height: 100px;
+  }
+}
+
+.somt .ucase .b1::before {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  background: #e84545;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.somt .ucase .b1:hover:before {
+  opacity: 70%;
+}
+
+.somt .ucase .b1:active::before {
+  background: purple;
+  opacity: 50%;
+}
+
+.somt .ucase .b2 {
+  background: url("../img/work/work-2.jpg") center;
+  -webkit-transition: 1s;
+  transition: 1s;
+  position: relative;
+}
+
+.somt .ucase .b2::before {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  background: #e84545;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.somt .ucase .b2:hover:before {
+  opacity: 70%;
+}
+
+.somt .ucase .b2:active::before {
+  background: purple;
+  opacity: 50%;
+}
+
+.somt .ucase .b3 {
+  background: url("../img/work/work-3.jpg") center;
+  -webkit-transition: 1s;
+  transition: 1s;
+  position: relative;
+}
+
+.somt .ucase .b3::before {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  background: #e84545;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.somt .ucase .b3:hover:before {
+  opacity: 70%;
+}
+
+.somt .ucase .b3:active::before {
+  background: purple;
+  opacity: 50%;
+}
+
+.somt .ucase .b4 {
+  background: url("../img/work/work-4.jpg") center;
+  -webkit-transition: 1s;
+  transition: 1s;
+  position: relative;
+}
+
+.somt .ucase .b4::before {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  background: #e84545;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.somt .ucase .b4:hover:before {
+  opacity: 70%;
+}
+
+.somt .ucase .b4:active::before {
+  background: purple;
+  opacity: 50%;
+}
+
+.somt .lcase div {
+  width: 461px;
+  height: 350px;
+  float: left;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.somt .lcase .b5 {
+  background: url("../img/work/work-5.jpg") center;
+  -webkit-transition: 1s;
+  transition: 1s;
+  position: relative;
+}
+
+.somt .lcase .b5::before {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  background: #e84545;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.somt .lcase .b5:hover:before {
+  opacity: 70%;
+}
+
+.somt .lcase .b5:active::before {
+  background: purple;
+  opacity: 50%;
+}
+
+.somt .lcase .b6 {
+  background: url("../img/work/work-6.jpg") center;
+  -webkit-transition: 1s;
+  transition: 1s;
+  position: relative;
+}
+
+.somt .lcase .b6::before {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  background: #e84545;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.somt .lcase .b6:hover:before {
+  opacity: 70%;
+}
+
+.somt .lcase .b6:active::before {
+  background: purple;
+  opacity: 50%;
+}
+
+.somt .lcase .b7 {
+  background: url("../img/work/work-7.jpg") center;
+  -webkit-transition: 1s;
+  transition: 1s;
+  position: relative;
+}
+
+.somt .lcase .b7::before {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  background: #e84545;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.somt .lcase .b7:hover:before {
+  opacity: 70%;
+}
+
+.somt .lcase .b7:active::before {
+  background: purple;
+  opacity: 50%;
+}
+
+.somt .lcase .b8 {
+  background: url("../img/work/work-8.jpg") center;
+  -webkit-transition: 1s;
+  transition: 1s;
+  position: relative;
+}
+
+.somt .lcase .b8::before {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  background: #e84545;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.somt .lcase .b8:hover:before {
+  opacity: 70%;
+}
+
+.somt .lcase .b8:active::before {
+  background: purple;
+  opacity: 50%;
+}
+
+.contacts {
+  height: 780px;
+  padding: 323px;
+}
+
+.contacts div {
+  font-family: 'Raleway', sans-serif;
+  margin: 0 0 0 30px;
+  height: 600px;
+  width: 270px;
+  float: left;
+  padding: 0;
+}
+
+.contacts div img {
+  width: 100%;
+  height: 270px;
+}
+
+.contacts div .name {
+  font-size: 22px;
+  margin-top: 30px;
+}
+
+.contacts div .work {
+  font-size: 15px;
+  color: #ff3333;
+  margin-top: 10px;
+}
+
+.contacts div .zwo {
+  margin-top: 30px;
+  font-size: 14px;
+  opacity: 80%;
+  line-height: 25px;
+}
+
+.contacts div .soa {
+  width: 140px;
+  height: 100px;
+  padding: 40px  0 0 0;
+  margin: -30px  0px 0  5px;
+}
+
+.contacts div a {
+  display: inline-block;
+  margin: 0 0 0 2px;
+  position: relative;
+  z-index: 1;
+}
+
+.contacts div a img {
+  position: relative;
+  z-index: 1;
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+}
+
+.contacts div a::before {
+  content: '';
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  border-radius: 2px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.contacts div a:hover::before {
+  background: #eb5f1f;
+  z-index: 2;
+  opacity: 30%;
+}
+
+.contacts div a:active::before {
+  background: #062058;
+  z-index: 2;
+  opacity: 30%;
+}
+
+.tipascript {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  margin-top: 190px;
+  background: url("../img/зображення/galya.jpg") 0 0/950px 500px no-repeat, #663366;
+}
+
+.tipascript p {
+  font-family: 'Cardo', serif;
+  font-style: italic;
+  font-size: 36px;
+  color: white;
+  width: 580px;
+  height: 230px;
+  float: right;
+  margin: 110px 205px 0 0;
+  line-height: 45px;
+  letter-spacing: 2px;
+}
+
+.tipascript p span {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  display: block;
+  margin-top: 25px;
+  color: white;
+  font-size: 13px;
+}
+
+.alik {
+  height: 340px;
+  width: 100%;
+}
+
+.alik .ralewaylight {
+  text-align: center;
+  font-size: 28px;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 100px;
+  text-transform: capitalize;
+}
+
+.alik .se {
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+
+.alik .lasrbtn {
+  display: block;
+  margin: auto;
+  height: 45px;
+  width: 280px;
+  background: #e84545;
+  margin-top: 40px;
+  border-radius: 4px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white;
+  font-size: 13px;
+  text-align: center;
+  padding: 15px 0 0 0;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.alik .lasrbtn:hover {
+  background: red;
+  width: 330px;
+}
+
+.alik .lasrbtn:active {
+  background: #bb3232;
+}
+
+.almostfoot {
+  margin-top: -50px;
+  height: 250px;
+  width: 100%;
+  background: #3a3e64;
+  padding: 0px 365px 0 365px;
+}
+
+.almostfoot div {
+  width: 150px;
+  height: 80px;
+  float: left;
+  margin: 70px 0 0 0px;
+  position: relative;
+}
+
+.almostfoot .loc {
+  font-family: 'Raleway', sans-serif;
+}
+
+.almostfoot .loc .as {
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.almostfoot .loc .pt22 {
+  line-height: 20.5px;
+  color: #888a9d;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 14px;
+}
+
+.almostfoot .appour {
+  left: 330px;
+}
+
+.almostfoot .appour .somep {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.almostfoot .appour .socs {
+  width: 149px;
+  height: 40px;
+  margin: 25px 0 0 0;
+}
+
+.almostfoot .appour .socs a {
+  display: inline-block;
+  margin: 0 0 0 6px;
+  position: relative;
+  z-index: 1;
+}
+
+.almostfoot .appour .socs a img {
+  position: relative;
+  z-index: 1;
+}
+
+.almostfoot .appour .socs a::before {
+  content: '';
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background: #e84545;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  border-radius: 2px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.almostfoot .appour .socs a:hover::before {
+  background: #bfe000;
+  z-index: 2;
+  opacity: 30%;
+}
+
+.almostfoot .appour .socs a:active::before {
+  background: #062058;
+  z-index: 2;
+  opacity: 30%;
+}
+
+.almostfoot .aboutus {
+  width: 340px;
+  height: 100px;
+  left: 600px;
+}
+
+.almostfoot .aboutus .pi {
+  text-align: center;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.almostfoot .aboutus .pidt {
+  line-height: 20.5px;
+  color: #888a9d;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 14px;
+  font-family: 'Raleway', sans-serif;
+}
+
+footer {
+  height: 100px;
+  width: 100%;
+  background: #313454;
+  margin: 0px 0 0 0;
+  padding: 35px 0 0 0;
+}
+
+footer .cop {
+  font-size: 14px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: #999999;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+footer .mf {
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: #999999;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+footer .mf a {
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  color: white;
+}
+
+footer .mf a:hover {
+  color: red;
+}
+
+footer span {
+  padding: 10px 0 0 25px;
+  background: url("../img/icons/heart_03.jpg") 0px 12px/20px no-repeat;
+}
